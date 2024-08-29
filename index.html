@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>N-Queens Visualizer</title>
+    <title>N-Queen-Visualiser</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -14,13 +14,13 @@
   <body>
     <header class="header">
       <h2>
-        N-Queens Visualizer <i class="fas fa-crown" style="color: #ffd700"></i>
+        N-Queens Visualiser <i class="fas fa-crown" style="color: #fdfffc"></i>
       </h2>
     </header>
     <div class="n-queen">
       <div class="inputbox">
         <input type="number" class="numberbox" id="numberbox" required />
-        <label for="numberbox">Enter total Queens</label>
+        <label>Enter total Queens</label>
       </div>
 
       <div class="slider-container">
@@ -28,14 +28,14 @@
           class="slider"
           id="slider"
           type="range"
-          min="4"
-          max="20"
-          value="8"
+          min="0"
+          max="100"
+          value="60"
         />
         <div id="progress-bar"></div>
       </div>
       <button class="play-button" id="play-button">
-        <i class="fa fa-play" aria-hidden="true"></i> Start Visualization
+        <i class="fa fa-play" aria-hidden="true"></i> Play
       </button>
     </div>
 
